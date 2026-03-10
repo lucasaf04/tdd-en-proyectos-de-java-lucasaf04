@@ -29,7 +29,7 @@ jobs:
 
       # Paso 4: Merge main en early si los tests pasan
       - name: Update early branch
-        if: success()  # Solo si los tests pasaron
+        if: success()
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
