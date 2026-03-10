@@ -35,7 +35,7 @@ jobs:
           git config --global user.email "github-actions@github.com"
 
           # Configurar credenciales para push
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          # git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
           # Traer la rama early
           git fetch origin early:early
