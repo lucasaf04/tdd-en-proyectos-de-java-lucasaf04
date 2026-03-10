@@ -24,5 +24,6 @@ jobs:
           deploy-mode: artifact
           java-version: 17
           target-folder: docs
+          javadoc-source-folder: docs
           project: maven
           custom-command: javadoc -d docs -sourcepath src/main/java com.tt1.test
